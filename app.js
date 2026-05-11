@@ -1374,7 +1374,7 @@ function setLocation(location)
 
 // ------------------ INIT ---------------------
 // start menu start button pressed
-// if the user doesnt follow the 1 requirement of no commas we give them the name IdiotWithNoName (also if they dont type anything)
+// if the user doesnt follow the 1 requirement of no commas we give them the name PlayerWhoCantRead (also if they dont type anything)
 function startButtonPressed()
 {
     //let centerPage = new CenterPageObj();
@@ -1391,7 +1391,7 @@ function startButtonPressed()
     }
     else
     {
-        var playerName = "IdiotWithNoName"
+        var playerName = "PlayerWhoCantRead"
         setName(playerName)
     }
 
